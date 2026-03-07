@@ -41,7 +41,7 @@ router.post('/', async (req, res) => {
 router.get('/received/:employeeId', async (req, res) => {
   try {
     const feedbacks = await Feedback.find({ givenTo: req.params.employeeId })
-      .populate('givenBy', 'name department') // show giver's name
+      .populate('givenBy', 'name department _id') // show giver's name
       .sort({ createdAt: -1 });               // newest first
     res.json(feedbacks);
   } catch (err) {
