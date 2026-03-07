@@ -1,0 +1,20 @@
+{
+  "name": "hcltech-api",
+  "version": "1.0.0",
+  "description": "Build an internal employee feedback platform",
+  "homepage": "https://github.com/HemanthSaiRajaV/HclTech-API#readme",
+  "bugs": {
+    "url": "https://github.com/HemanthSaiRajaV/HclTech-API/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HemanthSaiRajaV/HclTech-API.git"
+  },
+  "license": "ISC",
+  "author": "Hemanth Sai Raja Vanasetti",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
